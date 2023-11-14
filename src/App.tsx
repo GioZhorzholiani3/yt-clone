@@ -1,10 +1,11 @@
-import "./App.css";
+import PageHeader from "./layouts/PageHeader";
 
 function App() {
   return (
-    <>
-      <h1>React App</h1>
-    </>
+    <div className="max-h-screen flex flex-col">
+      <PageHeader />
+      <div>2</div>
+    </div>
   );
 }
 
